@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Counter assignment</title>
+</head>
+<body>
+    <h1>PROFESSIONAL COUNTING DEVICE</h1>
+    <p>You have visited this page: {{session['count']}} times</p>
+     <form action='/increment' method='post'>
+        <button class ='button'>Add 2</button>
+    </form>
+    <form action='/clear' method='post'>
+        <button>Clear counter</button>
+    </form>
+</body>
+</html>
